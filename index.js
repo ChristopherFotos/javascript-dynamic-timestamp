@@ -1,4 +1,4 @@
-export function getReadableDate(timestamp){
+export default function getReadableDate(timestamp){
 
     let elapsedTime = (Date.now() - timestamp)
 
